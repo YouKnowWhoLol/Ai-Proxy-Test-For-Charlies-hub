@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+
+  <meta
+    name="theme-color"
+    content="#070a10"
+  >
+
+  <title>Fast Proxy</title>
+
+  <link
+    rel="stylesheet"
+    href="/style.css"
+  >
+
+</head>
+
+
+<body>
+
+  <div class="background"></div>
+
+
+  <main class="page">
+
+    <header class="hero">
+
+      <div class="brand">
+
+        <div class="brand-icon">
+          ⚡
+        </div>
+
+        <div>
+
+          <h1>
+            Fast Proxy
+          </h1>
+
+          <p>
+            Fast, simple web access
+          </p>
+
+        </div>
+
+      </div>
+
+
+      <div class="status-pill">
+
+        <span
+          id="statusDot"
+          class="status-dot"
+        ></span>
+
+        <span id="statusText">
+          Checking...
+        </span>
+
+      </div>
+
+    </header>
+
+
+    <section class="proxy-card">
+
+      <div class="card-header">
+
+        <h2>
+          Enter a website
+        </h2>
+
+        <p>
+          Enter a URL to send the request
+          through your proxy.
+        </p>
+
+      </div>
+
+
+      <form
+        id="proxyForm"
+        autocomplete="off"
+      >
+
+        <div class="input-wrapper">
+
+          <span class="input-icon">
+            🔗
+          </span>
+
+          <input
+            id="url"
+            name="url"
+            type="text"
+            placeholder="https://example.com"
+            autocomplete="off"
+            spellcheck="false"
+            required
+          >
+
+        </div>
+
+
+        <button
+          id="goButton"
+          type="submit"
+        >
+
+          <span id="buttonText">
+            Go
+          </span>
+
+          <span
+            id="spinner"
+            class="spinner hidden"
+          ></span>
+
+        </button>
+
+      </form>
+
+
+      <div
+        id="error"
+        class="message error hidden"
+      ></div>
+
+
+      <div
+        id="success"
+        class="message success hidden"
+      ></div>
+
+    </section>
+
+
+    <section class="features">
+
+
+      <div class="feature">
+
+        <div class="feature-icon">
+          ⚡
+        </div>
+
+        <div>
+
+          <h3>
+            Fast
+          </h3>
+
+          <p>
+            Lightweight server with
+            automatic request timeouts.
+          </p>
+
+        </div>
+
+      </div>
+
+
+      <div class="feature">
+
+        <div class="feature-icon">
+          🛡️
+        </div>
+
+        <div>
+
+          <h3>
+            Protected
+          </h3>
+
+          <p>
+            Internal network addresses
+            are blocked.
+          </p>
+
+        </div>
+
+      </div>
+
+
+      <div class="feature">
+
+        <div class="feature-icon">
+          📱
+        </div>
+
+        <div>
+
+          <h3>
+            Responsive
+          </h3>
+
+          <p>
+            Designed for desktop,
+            tablet, and mobile.
+          </p>
+
+        </div>
+
+      </div>
+
+
+    </section>
+
+
+    <footer>
+      Fast Proxy
+    </footer>
+
+  </main>
+
+
+  <script src="/script.js"></script>
+
+</body>
+
+</html>
